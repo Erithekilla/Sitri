@@ -1,0 +1,119 @@
+*{
+    /* border: 1px solid red; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --c1: #604CC3;
+    --c2: #80C4E9;
+    --c3: #FFF6E9;
+    --c4: #ff7f3e;
+    --aw: #fff;
+    --ab: #000;
+}
+
+header{
+    background-color: var(--c3);
+    height: 100px;
+}
+
+.col-2 figure{
+    height: 100%;
+}
+
+.col-2 figure img{
+    height: 100%;
+}
+
+.navegacao{
+    padding: 0 100px;
+}
+
+.clube, .clube a{
+    background-color: var(--c4);
+    padding: 10px;
+    border-radius: 15px;
+    color: var(--aw);
+}
+
+header ul{
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin: 0 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: var(--ab);
+}
+
+header ul li:hover, header ul li a:hover{
+    text-decoration: underline;
+}
+
+#img{
+    object-fit: contain;
+    height: 80vh;
+}
+
+#carousel{
+    background-color: var(--c1);
+}
+
+#titulo{
+    padding: 20px 0;
+}
+
+#cardDiv{
+    margin: 10px 0;
+}
+
+#cardDiv h2{
+    text-align: center;
+}
+
+#card{
+    height: 300px;
+    padding: 5px 5px;
+}
+
+main{
+    background-color: var(--c3);
+}
+
+#loja{
+    margin: 20px 0px;
+}
+
+#cardLoja{
+    height: 700px;
+    overflow: auto;
+}
+
+#linkDiv{
+    margin: 10px 0;
+    background-color: var(--c4);
+    padding: 10px 0;
+    border-radius: 35px;
+}
+
+#linkCard{
+    color: var(--aw);
+    text-decoration: none;
+}
+
+#imgFooter{
+    width: 50%;
+}
+
+#footerDiv{
+    padding: 20px;
+    background-color: var(--c1);
+}
