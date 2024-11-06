@@ -84,7 +84,7 @@ header ul li:hover, header ul li a:hover{
 
 #card{
     height: 300px;
-    padding: 5px 5px;
+    padding: 10px 20px;
 }
 
 main{
@@ -97,7 +97,6 @@ main{
 
 #cardLoja{
     height: 700px;
-    overflow: auto;
 }
 
 #linkDiv{
@@ -158,4 +157,12 @@ main{
 
 #textoContato, #divContato{
     margin: 20px 0;
+}
+
+#sobreNos{
+    padding: 20px 0;
+}
+
+#lojaIndex{
+    padding: 10px 0;
 }
