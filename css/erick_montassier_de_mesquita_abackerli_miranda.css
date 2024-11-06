@@ -103,8 +103,9 @@ main{
 #linkDiv{
     margin: 10px 0;
     background-color: var(--c4);
-    padding: 10px 0;
+    padding: 10px 20px;
     border-radius: 35px;
+    border: none;
 }
 
 #linkCard{
@@ -113,10 +114,48 @@ main{
 }
 
 #imgFooter{
-    width: 50%;
+    min-width: 50px;
+    max-width: 50px;
 }
 
 #footerDiv{
     padding: 20px 0;
     background-color: var(--c1);
+}
+
+#footerText{
+    color: var(--aw)
+}
+
+.input-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.input-number {
+    -moz-appearance: textfield;
+}
+
+#divForm{
+    margin: 10px 0;
+}
+
+#formContato{
+    background-color: var(--c2);
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid var(--ab);
+    margin: 10px 0;
+}
+
+#formButton{
+    padding: 5px 20px;
+    border: 2px solid var(--ab);
+    border-radius: 10px;
+    background-color: var(--c4);
+    color: var(--aw);
+
+}
+
+#textoContato, #divContato{
+    margin: 20px 0;
 }
