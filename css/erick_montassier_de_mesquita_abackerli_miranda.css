@@ -1,5 +1,4 @@
 *{
-    /* border: 1px solid red; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,6 +15,11 @@
 
 header{
     background-color: var(--c3);
+}
+
+.navbar-toggler{
+    position: absolute;
+    top: 40px;
 }
 
 #logo{
