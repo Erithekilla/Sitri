@@ -99,6 +99,10 @@ main{
     height: 700px;
 }
 
+#cardDivLoja{
+    margin: 50px 0;
+}
+
 #linkDiv{
     margin: 10px 0;
     background-color: var(--c4);
@@ -110,6 +114,10 @@ main{
 #linkCard{
     color: var(--aw);
     text-decoration: none;
+}
+
+.card-body{
+    height: 20%;
 }
 
 #imgFooter{
@@ -165,4 +173,16 @@ main{
 
 #lojaIndex{
     padding: 10px 0;
+}
+
+#corClubeTexto{
+    color: var(--c4)
+}
+
+#sitri{
+    width: 300px;
+}
+
+#clubeMain{
+    padding: 50px 0;
 }
