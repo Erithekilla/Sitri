@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,9 +11,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"
         defer></script>
     <link rel="stylesheet" href="../css/erick_montassier_de_mesquita_abackerli_miranda.css">
-    <title>Loja - Clube dos Livros Raros</title>
+    <title>Caixa Básica - Clube dos Livros Raros</title>
     <link rel="icon" href="../img/Sitri.png">
 </head>
+
 <body>
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -46,66 +48,54 @@
     </header>
     <main>
         <div class="container">
-            <div id="loja">
-                <div id="tituloLoja" class="text-center">
-                    <h2>Loja</h2>
+            <div id="itens" class="d-flex flex-column flex-lg-row justify-content-between align-items-center">
+                <div class="col-12 col-lg-4 text-center" id="cardDivCompra">
+                    <div class="card d-flex justify-content-center text-center" id="cardCompra">
+                        <img src="../img/caixa_basica.png" alt="Caixa Básica Gerada por IA"
+                            class="card-img-top img-fluid">
+                        <div class="card-body">
+                            <h3 class="card-title">Caixa básica</h3>
+                            <h5>Valor: R$500,00</h5>
+                            <p class="card-text">Descrição: A caixa vem com um pack de 3 livros sobre o Ocultismo</p>
+                            <p class="card-text">Livros: <br>-The Kybalion <br>-The Book of Enoch <br>-The Red
+                                Dragon
+                                (Grand Grimoire)</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="itens" class="d-flex flex-column flex-lg-row justify-content-between">
-                    <div class="col-12 col-lg-3 text-center" id="cardDivLoja">
-                        <div class="card d-flex justify-content-center text-center" id="cardLoja">
-                            <img src="../img/caixa_basica.png" alt="Caixa Básica Gerada por IA"
-                                class="card-img-top img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title">Caixa básica - R$500,00</h5>
-                                <p class="card-text">-The Kybalion <br>-The Book of Enoch <br>-The Red
-                                    Dragon
-                                    (Grand Grimoire)</p>
-                            </div>
-                            <button class="text-center col-6 mx-auto" id="linkDiv">
-                                <a href="./caixa_b.html" id="linkCard">Compre Aqui</a>
-                            </button>  
+                <div class="col-12 col-lg-7">
+                    <h2>Compra</h2>
+                    <div class="d-flex flex-column">
+                        <form id="formCaixa">
+                            <label for="nome">Digite o nome cadastrado no seu cartão:</label>
+                            <input type="text" name="nome" id="nome" class="form-control" placeholder="Shlomo">
+                        </form>
+                        <form id="formCaixa">
+                            <label for="email">Digite seu Email:</label>
+                            <input type="email" name="email" id="email" class="form-control"
+                                placeholder="Shlomo@email.com">
+                        </form>
+                        <form id="formCaixa">
+                            <label for="numero">Digite seu numero:</label>
+                            <input type="number" name="numero" id="numero" placeholder="XX-XXXXX.XXXX"
+                                class="input-number form-control">
+                        </form>
+                        <div id="formCaixa" class="d-flex flex-column flex-lg-row justify-content-between">
+                            <form class="col-lg-5 col-12">
+                                <label for="cartao">Número cartão</label>
+                                <input type="number" name="cartao" id="cartao" class="form-control input-number" placeholder="XXXX.XXXX.XXXX">
+                            </form>
+                            <form class="col-lg-5 col-12">
+                                <label for="CCV">CCV</label>
+                                <input type="number" name="CCV" id="CCV" class="form-control input-number" placeholder="XXX">
+                            </form>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a href="#"><button id="linkDiv">Comprar</button></a>
                         </div>
                     </div>
-                    <div class="col-12 col-lg-3 text-center" id="cardDivLoja">
-                        <div class="card d-flex justify-content-center text-center" id="cardLoja">
-                            <img src="../img/caixa_media.png" alt="Caixa Média Gerada por IA"
-                                class="card-img-top img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title">Caixa média - R$1200,00</h5>
-                                <p class="card-text">-Corpus Hermeticum <br>-Three Books of Occult
-                                    Philosophy
-                                    <br>-Clavicula Salomonis (A Chave de Salomão) <br>-The Secret Teachings of All Ages
-                                    <br>-Ars Notoria
-                                    (Grand Grimoire)
-                                </p>
-                            </div>
-                            <button class="text-center col-6 mx-auto" id="linkDiv">
-                                <a href="./caixa_m.html" id="linkCard">Compre Aqui</a>
-                            </button>  
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-3 text-center" id="cardDivLoja">
-                        <div class="card d-flex justify-content-center text-center" id="cardLoja">
-                            <img src="../img/caixa_poderosa.png" alt="Caixa Poderosa Gerada por IA"
-                                class="card-img-top img-fluid">
-                            <div class="card-body">
-                                <h5 class="card-title">Caixa poderosa - R$1500,00</h5>
-                                <p class="card-text">-Picatrix <br>-The Book of Abramelin <br>-The Sixth and
-                                    Seventh Books of Moses <br>-The Lesser Key of Solomon (Lemegeton) <br>-Liber Null
-                                    and
-                                    Psychonaut <br>-Codex Gigas <br>-The Heptameron <br>-De Occulta Philosophia <br>-The
-                                    Chaldæan Oracles <br>-The Magus</p>
-                            </div>
-                            <button class="text-center col-6 mx-auto" id="linkDiv">
-                                <a href="./caixa_p.html" id="linkCard">Compre Aqui</a>
-                            </button>   
-                        </div>
-                        
-                    </div>
-
                 </div>
             </div>
-        </div>
     </main>
     <footer>
         <div id="footerDiv">
@@ -133,4 +123,5 @@
         </div>
     </footer>
 </body>
+
 </html>
